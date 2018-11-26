@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	font-family: Arial;
+}
+.header	{
+	height: 62px;	
+	background: #02918c;	
+}
+.container {
+	width: 1008px;
+	margin: 0 auto;
+}
+.logo {
+	display: inline-block;
+	margin: 18px 0 18px;
+}
+.promo_block img {
+	width: 100%;
+}
+.about_me {
+	text-align: center;
+    margin-top: 100px;
+}
+h1 {
+ 	font-size: 46px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #02918c;
+    margin-bottom: 10px;
+}
+.p_about_me {
+	font-size: 16px;
+	color: #7e8287;
+	line-height: 50px;
+	padding: 0 55px 0;
+}
+.items {
+    display: inline-block;  
+    text-align: center;		
+    margin: 15px 0;
+}
+.box {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	padding: 40px 10px 40px;
+    margin: 0 20px 0;	
+	box-sizing: border-box;
+} 
+.ic_lamp {
+	background: url(../img/ic-lamp.png) 50% 0 no-repeat;
+}
+.ic_pencil {
+	background: url(../img/ic-pencil.png) 50% 0 no-repeat;
+}
+.ic_set {
+	background: url(../img/ic-set.png) 50% 0 no-repeat;
+}
+.ic_laptop {
+	background: url(../img/ic-laptop.png) 50% 0 no-repeat;	
+}
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #7e8287;	
+	padding: 15px 0;
+}
+p {
+	font-size: 14px;
+	font-weight: normal;	
+	color: #7e8287;
+	text-height: 21px;
+}
+.footer {
+	height: 79px;
+	background-color: #000;	
+	text-align: center;	
+} 
+.p_footer {	
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;	
+	color: #7e8287;
+	text-transform: uppercase;
+	padding: 35px 0 10px;
+}

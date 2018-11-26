@@ -1,0 +1,139 @@
+
+.header {
+    height: 50px;
+	background-color: #f6f6f6;
+}
+
+.menu{
+	padding-left: 20px;
+    padding-top: 15px;	
+    font-size: 18px;
+}
+
+ul.menu li {
+    font-size: 16px;
+    font-weight: lighter;
+    display: inline;  
+    margin-right: 40px; 
+    padding-top: 20px;
+    text-align: center;	
+} 
+
+.promo {
+	margin-top: 10px;
+	padding: 16px 40px;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+}
+
+h1 {
+	font-size: 42px;
+	font-weight: 400;
+	color: black;
+}
+
+.promo .btn{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #3C8BFF;
+	padding: 8px 20px 8px 20px;
+	font-size: 20px;
+	border-radius: 12px;
+}
+
+.promo p {
+	line-height: 34px;
+	font-size: 22px;
+	color: #716767;
+}
+
+.btn_promo{
+	margin: 40px 0px 40px 0px;
+}
+
+.article {
+	border-bottom: 1px solid #434343;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.article h2 {
+	font-size: 26px;
+	font-weight: 400;
+	text-transform: capitalize;	
+	color: #434343;
+}
+
+.article p {
+	font-size: 20px;
+	font-weight: 400;
+	color: #716767;
+	letter-spacing: -1px;
+}
+
+.btn_article{
+	margin: 5px 0px 30px;	
+	text-align: right;
+}
+
+.article .btn {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #3C8BFF;
+	padding: 8px 20px 4px 20px;
+	font-size: 16px;
+	border-radius: 8px;
+}
+
+.gallary{
+	text-align: center;
+}
+
+ul.gallary li {
+    font-size: 16px;
+    font-weight: lighter;
+	display: inline-block;
+	width:30%;
+	align-items: center;
+    margin-right: 5px; 
+    padding: 3px; 
+} 
+
+.btn_gallary { 
+	text-align: center;
+	margin: 40px 0 80px;
+}	
+
+.btn_gallary .btn{ 
+	text-decoration: none;
+	text-transform: capitalize;	
+	color: #ffffff;
+	background-color: #3C8BFF;
+	padding: 8px 20px 8px 20px;
+	font-size: 20px;
+	border-radius: 12px;
+}
+
+.footer { 
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    height: 50px;
+    background-color: #f6f6f6;
+}
+
+.footer p {
+	padding-left: 50px;
+    padding-top: 15px;
+}
+
+img {
+	width: 200px;
+}
+
+body {
+    font-family: Roboto;
+	color: #8a8a8a
+}
+
