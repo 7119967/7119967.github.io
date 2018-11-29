@@ -1,0 +1,100 @@
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: #c1bdba;
+	font-family: 'Titillium Web', sans-serif;
+	color: #fdfefe;
+	line-height: 1.1;
+}
+.form {
+	background-color: #55847d;
+	max-width: 600px;
+	height: 675px;
+	border-radius: 4px;
+	padding: 40px;
+	margin: 34px auto;	
+	-webkit-box-shadow: -5px 5px 10px #7c9f9f;
+	-moz-box-shadow: -5px 5px 10px #7c9f9f;
+	box-shadow: -5px 5px 10px #7c9f9f;
+}
+.submit {
+	width: 100%;
+    border: none;
+	background-color: #cf2355;
+	padding: 12px 15px;
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+    color: #fdfefe;	
+    margin-bottom: 40px;
+}
+.buttons {
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+}
+.btn_signup, .btn_login {
+	border: none;
+	height: 54px; 	
+	width: 100%;
+	background-color:#7c9f9f;
+	font-family: 'Titillium Web', sans-serif;	
+	font-size: 20px;
+	color: #fdfefe;	
+	text-transform: capitalize;
+	text-align: center;
+}
+.btn_login:focus, .btn_login:active{
+    background-color: #cf2355;
+}
+.btn_signup:focus, .btn_signup:active{
+    background-color: #cf2355;
+}
+.persona {
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+}
+.form_field {
+	border: 1px solid #fdfefe;
+	background-color: #55847d;
+	font-family: 'Titillium Web', sans-serif;	
+	font-size: 22px;
+	line-height: 36px;
+    color: #fdfefe;		
+	width: 100%;
+	padding: 0 0 0 12px;
+	margin-bottom: 40px;
+}
+.persona>.form_field {
+	width: 48%;
+}
+.form_title {
+	font-size: 32px;
+	font-weight: normal;
+	text-align: center;
+	margin: 40px auto;
+}
+.textarea {
+	height: 88px;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #7c9f9f;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 22px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #7c9f9f;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 22px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #7c9f9f;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 22px;
+}
