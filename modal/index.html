@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-success my-5"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        Зарегистрироваться
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="welcome">
+              <div class="modal-header">
+                <h5 class="modal-title">Добро пожаловать!</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <span class="lead" style="font-size: 9em; color: green;">
+                  <i class="fas fa-check"></i>
+                </span>
+              </div>
+            </div>
+            <div class="modal-header form-group">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Зарегистрироваться
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body form-group">
+              <form id="form">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="id_email"
+                    aria-describedby="emailHelp"
+                    placeholder="Email"
+                  />
+                  <div id="ntf_email" class="valid-feedback"></div>
+                </div>
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-11 pr-0">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="id_pass1"
+                        placeholder="Пароль"
+                      />
+                      <span id="ntf_pass1" class="valid-feedback"></span>
+                    </div>
+                    <div
+                      class="col mx-0 px-0 py-2 align-items-start text-center"
+                    >
+                      <i class="far fa-eye"></i>
+                      <i class="far fa-eye-slash"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="id_pass2"
+                    placeholder="Повторите пароль"
+                  />
+                  <div id="ntf_pass2" class="valid-feedback"></div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer form-group">
+              <button
+                type="submit"
+                id="submit"
+                class="btn btn-primary form-control"
+              >
+                Готово!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
